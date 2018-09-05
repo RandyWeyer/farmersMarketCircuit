@@ -1,6 +1,6 @@
-import React from "react";
-import Header from "./Header";
-import ContentBody from "./ContentBody";
+import React from 'react';
+import Header from './Header';
+import ContentBody from './ContentBody';
 
 function App(){
   return (

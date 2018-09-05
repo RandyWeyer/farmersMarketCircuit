@@ -1,13 +1,12 @@
-import React from "react";
+import React from 'react';
+import MarketSchedule from './MarketSchedule';
+import SeasonalProduce from './SeasonalProduce';
 
 function Header(){
   return (
     <div>
-      <h1>Help Queue</h1>
-      <h3>Something</h3>
-      <h3>Thato and Haley</h3>
-      <p><em>Firebase entries not saving!</em></p>
-      <hr/>
+      <MarketSchedule></MarketSchedule>
+      <SeasonalProduce></SeasonalProduce>
     </div>
   );
 }
