@@ -49,7 +49,8 @@ function MarketSchedule(){
         <Schedule day={schedule.day}
           location={schedule.location}
           hours={schedule.hours}
-          booth={schedule.booth} />
+          booth={schedule.booth}
+          key={index} />
       )}
     </div>
   );

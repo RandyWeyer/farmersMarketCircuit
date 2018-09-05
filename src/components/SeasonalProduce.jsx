@@ -1,4 +1,5 @@
 import React from 'react';
+import Produce from './Produce';
 
 const availableProduce = [
   {
@@ -272,7 +273,11 @@ const availableProduce = [
 function SeasonalProduce(){
   return (
     <div>
-      <h1>Hi, I'm seasonal Produce</h1>
+      <hr/>
+      {availableProduce.map((produce, index) =>
+        <Produce month={produce.month}
+          selection={produce.selection} key={index} />
+      )}
     </div>
   );
 }
